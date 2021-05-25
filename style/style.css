@@ -37,8 +37,9 @@ body{
 .container{
     margin: 0 auto;
     margin-top: 50px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
 
-    height: 400px;
     width: 80%;
     border-radius: 5px;
 }
@@ -125,7 +126,28 @@ li:before {
     text-align: center;
     line-height: 20px;
 
-    background-color: red;
 }
 
+.editorial{
+    background-color: rgb(77, 174, 238);
+}
 
+.mobile{
+    background-color: orange;
+}
+
+.interview{
+    background-color: purple;
+}
+
+.q1_goals{
+    background-color: yellowgreen;
+}
+
+.meetings{
+    background-color: thistle;
+}
+
+.coding{
+    background-color: lightpink;
+}
