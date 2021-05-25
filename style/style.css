@@ -5,4 +5,25 @@
     padding: 0;
 }
 
+/* General*/
+body{
+    background-color: rgb(246, 248, 249);
+}
 
+/* Header*/
+.header_top{
+    height: 100px;
+    background-color: white;
+    line-height: 100px;
+}
+
+.header_name{
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+#logo{
+    height: 80px;
+    vertical-align: middle;
+}
