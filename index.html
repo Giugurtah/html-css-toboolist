@@ -8,17 +8,27 @@
     <title>Toboolist</title>
 </head>
 <body>
-    <header class="header_top">
+    <header class="header_top color_white">
         <img src="./img/Logo.png" alt="Logo Toboolist" id="logo">
         <h1 class="header_name">Toboolist</h1>
     </header>
 
     <main>
-        <div class="container">
-            <section class="task_manager"></section>
-            <section class="tasks"></section>
-            <section class="tasks"></section>
-            <section class="tasks"></section>
+        <div class="container color_white">
+            <section class="task_manager">
+                <div class="manager_square" id="add_task">Add Task</div>
+                <div class="manager_square" id="add_section">Add Section</div>
+            </section>
+            <hr>
+            <section class="tasks_group">
+                <h2>&blacktriangledown; New Task</h2>
+                <ul>
+                    <li class="task done">Quarterly Newslatter</li>
+                    <li class="task to_do">Execute coding</li>
+                </ul>
+            </section>
+            <section class="tasks_group"></section>
+            <section class="tasks_group"></section>
         </div>
     </main>
 </body>
